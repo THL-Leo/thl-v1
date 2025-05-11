@@ -19,6 +19,9 @@ export function Navbar() {
           <a href="#contact" className="text-sm hover:text-primary transition-colors">
             Contact
           </a>
+          <a href="/resume.pdf" className="text-sm hover:text-primary transition-colors">
+            Resume
+          </a>
           <ThemeToggle />
         </nav>
       </div>
