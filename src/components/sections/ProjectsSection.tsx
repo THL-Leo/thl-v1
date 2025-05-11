@@ -1,6 +1,7 @@
 'use client'
 
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { RepoLanguageChart } from '@/components/RepoLanguageChart'
 
 const projects = [
   {
@@ -13,9 +14,13 @@ const projects = [
     feedback: "The project was showcased to industry experts and received positive feedback from the community.",
     tags: ["Software Engineering", "UI/UX Design", "System Architecture"],
     links: [
-      { label: "GitHub", url: "https://github.com/yourusername" },
+      { label: "GitHub", url: "https://github.com/THL-Leo/thl" },
       { label: "Live Demo", url: "https://demo.com" },
-    ]
+    ],
+    github: {
+      owner: "THL-Leo",
+      repo: "thl"
+    }
   },
   // Add more projects as needed
 ]
@@ -70,19 +75,11 @@ export function ProjectsSection() {
                 </div>
               </div>
 
-              {/* Image/Pattern Section */}
-              <div className="relative aspect-square bg-muted/30">
-                <div className="absolute inset-0 grid grid-cols-8 grid-rows-8">
-                  {Array.from({ length: 64 }).map((_, i) => (
-                    <div key={i} className="flex items-center justify-center text-[8px] text-muted-foreground font-mono">
-                      {project.title.split(' ')[0].toUpperCase()}
-                    </div>
-                  ))}
-                </div>
-                {/* Project Image would go here */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-2/3 h-2/3 bg-background/80 backdrop-blur-sm" />
-                </div>
+              {/* Language Chart */}
+              <div className="relative aspect-square bg-muted/30 rounded-lg overflow-hidden">
+                <RepoLanguageChart 
+                  repoName={project.github.repo} 
+                />
               </div>
             </div>
           </div>

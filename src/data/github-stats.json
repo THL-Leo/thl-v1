@@ -1,0 +1,344 @@
+{
+  "brnrot.ai": {
+    "name": "brnrot.ai",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-12-02T00:34:04Z",
+    "url": "https://github.com/THL-Leo/brnrot.ai",
+    "homepage": "https://brnrot-ai.vercel.app",
+    "languages": {
+      "JavaScript": 86.2,
+      "CSS": 12.1,
+      "HTML": 1.7
+    },
+    "topics": []
+  },
+  "colly-crawler": {
+    "name": "colly-crawler",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-10-30T09:13:19Z",
+    "url": "https://github.com/THL-Leo/colly-crawler",
+    "homepage": null,
+    "languages": {
+      "Go": 53.7,
+      "Python": 46.3
+    },
+    "topics": []
+  },
+  "cURL": {
+    "name": "cURL",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2022-07-02T20:35:18Z",
+    "url": "https://github.com/THL-Leo/cURL",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "discord-bot": {
+    "name": "discord-bot",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-11-08T02:08:06Z",
+    "url": "https://github.com/THL-Leo/discord-bot",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "eu4Search": {
+    "name": "eu4Search",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-04-16T08:51:22Z",
+    "url": "https://github.com/THL-Leo/eu4Search",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 53.4,
+      "CSS": 28.7,
+      "JavaScript": 12.0,
+      "HTML": 6.0
+    },
+    "topics": []
+  },
+  "FoundationOfAI": {
+    "name": "FoundationOfAI",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-08-19T01:50:04Z",
+    "url": "https://github.com/THL-Leo/FoundationOfAI",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "gifbgremover": {
+    "name": "gifbgremover",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-04-21T20:03:05Z",
+    "url": "https://github.com/THL-Leo/gifbgremover",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "guessing_game": {
+    "name": "guessing_game",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2018-12-12T07:12:25Z",
+    "url": "https://github.com/THL-Leo/guessing_game",
+    "homepage": null,
+    "languages": {
+      "Rust": 100.0
+    },
+    "topics": []
+  },
+  "httpserver": {
+    "name": "httpserver",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2022-07-02T19:55:20Z",
+    "url": "https://github.com/THL-Leo/httpserver",
+    "homepage": null,
+    "languages": {
+      "C": 98.0,
+      "Makefile": 2.0
+    },
+    "topics": []
+  },
+  "idontknowhowtowriteemails": {
+    "name": "idontknowhowtowriteemails",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-04T06:03:17Z",
+    "url": "https://github.com/THL-Leo/idontknowhowtowriteemails",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 95.0,
+      "CSS": 4.9,
+      "JavaScript": 0.1
+    },
+    "topics": []
+  },
+  "llmail": {
+    "name": "llmail",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-04T01:36:39Z",
+    "url": "https://github.com/THL-Leo/llmail",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 87.8,
+      "PLpgSQL": 9.6,
+      "CSS": 2.3,
+      "JavaScript": 0.2
+    },
+    "topics": []
+  },
+  "Moodify": {
+    "name": "Moodify",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-04-22T18:35:33Z",
+    "url": "https://github.com/THL-Leo/Moodify",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "novelScraper": {
+    "name": "novelScraper",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-04-21T20:17:26Z",
+    "url": "https://github.com/THL-Leo/novelScraper",
+    "homepage": null,
+    "languages": {
+      "HTML": 81.2,
+      "Python": 18.8
+    },
+    "topics": []
+  },
+  "old-website": {
+    "name": "old-website",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2022-12-23T03:02:48Z",
+    "url": "https://github.com/THL-Leo/old-website",
+    "homepage": null,
+    "languages": {
+      "HTML": 100.0
+    },
+    "topics": []
+  },
+  "OpenGL-Lion": {
+    "name": "OpenGL-Lion",
+    "description": "This is a lion model I made using OpenGL",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2022-12-11T22:24:50Z",
+    "url": "https://github.com/THL-Leo/OpenGL-Lion",
+    "homepage": null,
+    "languages": {
+      "JavaScript": 99.9,
+      "HTML": 0.1
+    },
+    "topics": []
+  },
+  "presidentTalksChess": {
+    "name": "presidentTalksChess",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-04-11T22:20:40Z",
+    "url": "https://github.com/THL-Leo/presidentTalksChess",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "ROS-Merger": {
+    "name": "ROS-Merger",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-02-06T00:25:43Z",
+    "url": "https://github.com/THL-Leo/ROS-Merger",
+    "homepage": null,
+    "languages": {
+      "Jupyter Notebook": 100.0
+    },
+    "topics": []
+  },
+  "Signs": {
+    "name": "Signs",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-11-10T02:25:34Z",
+    "url": "https://github.com/THL-Leo/Signs",
+    "homepage": null,
+    "languages": {
+      "JavaScript": 30.0,
+      "Kotlin": 29.1,
+      "Ruby": 19.6,
+      "Objective-C++": 17.7,
+      "Objective-C": 2.1,
+      "Swift": 0.7,
+      "C": 0.7
+    },
+    "topics": []
+  },
+  "testing": {
+    "name": "testing",
+    "description": "testing push code from local to an existing repo",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-11-10T06:31:24Z",
+    "url": "https://github.com/THL-Leo/testing",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "thl": {
+    "name": "thl",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-02-27T10:21:06Z",
+    "url": "https://github.com/THL-Leo/thl",
+    "homepage": "https://thl-leo.vercel.app/",
+    "languages": {
+      "TypeScript": 82.1,
+      "CSS": 9.5,
+      "JavaScript": 6.5,
+      "Dockerfile": 1.9
+    },
+    "topics": []
+  },
+  "thl-v1": {
+    "name": "thl-v1",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-11T00:44:35Z",
+    "url": "https://github.com/THL-Leo/thl-v1",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 79.2,
+      "CSS": 20.4,
+      "JavaScript": 0.4
+    },
+    "topics": []
+  },
+  "Three-CarModel": {
+    "name": "Three-CarModel",
+    "description": "Simple animated car model made from Three.js",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2022-12-11T22:52:09Z",
+    "url": "https://github.com/THL-Leo/Three-CarModel",
+    "homepage": null,
+    "languages": {
+      "JavaScript": 100.0,
+      "HTML": 0.0,
+      "CSS": 0.0
+    },
+    "topics": []
+  },
+  "threejs": {
+    "name": "threejs",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2024-10-10T01:51:57Z",
+    "url": "https://github.com/THL-Leo/threejs",
+    "homepage": null,
+    "languages": {
+      "HTML": 53.4,
+      "JavaScript": 29.8,
+      "CSS": 16.8
+    },
+    "topics": []
+  },
+  "TSP": {
+    "name": "TSP",
+    "description": "A program that finds the shortest path among the vertices with their weights ",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2022-07-02T19:15:03Z",
+    "url": "https://github.com/THL-Leo/TSP",
+    "homepage": null,
+    "languages": {
+      "C": 97.1,
+      "Makefile": 2.9
+    },
+    "topics": []
+  }
+}
