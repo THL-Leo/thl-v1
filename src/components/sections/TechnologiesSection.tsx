@@ -23,7 +23,7 @@ const technologies = {
   ] as Technology[],
   "Machine Learning": [
     { name: "PyTorch", icon: "/icons/pytorch.svg" },
-    // { name: "TensorFlow", icon: "/icons/tensorflow.svg" },
+    { name: "TensorFlow", icon: "/icons/tensorflow.svg" },
     // { name: "Keras", icon: "/icons/keras.svg" },
     { name: "Scikit-learn", icon: "/icons/scikitlearn.svg" },
     { name: "OpenCV", icon: "/icons/opencv.svg" },
@@ -31,7 +31,7 @@ const technologies = {
     { name: "Pandas", icon: "/icons/pandas.svg" },
     // { name: "GeoPandas", icon: "/icons/geopandas.svg" },
     { name: "Numpy", icon: "/icons/numpy.svg" },
-    { name: "SciPy", icon: "/icons/scipy.svg" },
+
   ] as Technology[],
   "Tools": [
     // { name: "React", icon: "/icons/react.svg" },
