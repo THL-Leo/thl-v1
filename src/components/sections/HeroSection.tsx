@@ -3,18 +3,28 @@
 export function HeroSection() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-4 md:px-8 lg:px-16 relative">
-      <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          thleov1 is a full-stack developer based in London.
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-xl mb-4 font-bold">
+          Leo is a software engineer based in Los Angeles.
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-          I help innovative startups and forward-thinking organisations rapidly concept, build, and deploy their ideas into the real world.
+        <p className="text-lg font-semibold mb-4">
+          I make tools that help me with my daily life or anything I find interesting.
         </p>
-        <div className="mt-8 text-sm text-muted-foreground">
+        <div className="text-base space-y-1">
           <p>
-            My work includes a real-time streaming platform for commercial photographers,
-            <br className="hidden md:block" />
-            a 3D and AI-powered design tool, and backend platforms for various projects.
+            My recent work includes{' '}
+            <a href="https://devpost.com/software/moodify-tqhfsk" className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Image to Music platform
+            </a>{' '}
+            from LA Hacks 24, a{' '}
+            <a href="https://devpost.com/software/degen-purity-test" className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Modern Brainrot Personality Test
+            </a>{' '}
+            from jia.seed Hackathon 24, and an {' '}
+            <a href="https://devpost.com/software/idontknowhowtowriteemails" className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Email Writer
+            </a>{' '}
+            from Anthropic x USC Hackathon 25.
           </p>
         </div>
       </div>

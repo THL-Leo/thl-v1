@@ -1,49 +1,84 @@
 'use client'
 
+import Image from 'next/image'
+
+interface Technology {
+  name: string
+  icon: string
+}
+
 const technologies = {
-  "Frontend": [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "TailwindCSS",
-    "Framer Motion",
-  ],
-  "Backend": [
-    "Node.js",
-    "Express",
-    "PostgreSQL",
-    "MongoDB",
-    "REST APIs",
-  ],
-  "Tools & Others": [
-    "Git",
-    "Docker",
-    "AWS",
-    "CI/CD",
-    "Testing",
-  ],
+  "Languages": [
+    { name: "Python", icon: "/icons/python.svg" },
+    { name: "TypeScript", icon: "/icons/typescript.svg" },
+    { name: "JavaScript", icon: "/icons/javascript.svg" },
+    { name: "C++", icon: "/icons/cplusplus.svg" },
+    { name: "MySQL", icon: "/icons/mysql.svg" },
+    { name: "HTML", icon: "/icons/html5.svg" },
+    { name: "Swift", icon: "/icons/swift.svg" },
+    { name: "Kotlin", icon: "/icons/kotlin.svg" },
+    { name: "CSS", icon: "/icons/css3.svg" },
+    { name: "Postgres", icon: "/icons/postgresql.svg" },
+    { name: "SQLite", icon: "/icons/sqlite.svg" },
+  ] as Technology[],
+  "Machine Learning": [
+    { name: "PyTorch", icon: "/icons/pytorch.svg" },
+    { name: "TensorFlow", icon: "/icons/tensorflow.svg" },
+    { name: "Keras", icon: "/icons/keras.svg" },
+    { name: "Scikit-learn", icon: "/icons/scikitlearn.svg" },
+    { name: "OpenCV", icon: "/icons/opencv.svg" },
+    { name: "YOLO", icon: "/icons/yolo.svg" },
+    { name: "Pandas", icon: "/icons/pandas.svg" },
+    { name: "GeoPandas", icon: "/icons/geopandas.svg" },
+    { name: "Numpy", icon: "/icons/numpy.svg" },
+    { name: "SciPy", icon: "/icons/scipy.svg" },
+  ] as Technology[],
+  "Tools": [
+    { name: "React", icon: "/icons/react.svg" },
+    { name: "Next.js", icon: "/icons/nextdotjs.svg" },
+    { name: "Node.js", icon: "/icons/nodedotjs.svg" },
+    { name: "Express", icon: "/icons/express.svg" },
+    { name: "Bun", icon: "/icons/bun.svg" },
+    { name: "Deno", icon: "/icons/deno.svg" },
+    { name: "Flask", icon: "/icons/flask.svg" },
+    { name: "Git", icon: "/icons/git.svg" },
+    { name: "Docker", icon: "/icons/docker.svg" },
+    { name: "Vercel", icon: "/icons/vercel.svg" },
+    { name: "Supabase", icon: "/icons/supabase.svg" },
+    { name: "Google Cloud", icon: "/icons/googlecloud.svg" },
+  ] as Technology[],
+
 }
 
 export function TechnologiesSection() {
   return (
-    <section className="py-20 px-4 md:px-8 lg:px-16">
+    <section className="py-20 px-4 md:px-8 lg:px-16" id="technologies">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          Core Technologies
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="space-y-16">
           {Object.entries(technologies).map(([category, techs]) => (
             <div key={category}>
-              <h3 className="text-xl font-semibold mb-6">{category}</h3>
-              <ul className="space-y-3">
+              <h2 className="text-2xl font-normal mb-8">{category}</h2>
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-8">
                 {techs.map((tech) => (
-                  <li key={tech} className="flex items-center space-x-2">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full" />
-                    <span className="text-muted-foreground">{tech}</span>
-                  </li>
+                  <div 
+                    key={tech.name}
+                    className="group flex flex-col items-center gap-3"
+                  >
+                    <div className="relative w-16 h-16 rounded-full bg-muted/30 flex items-center justify-center overflow-hidden transition-colors group-hover:bg-muted/50">
+                      <Image
+                        src={tech.icon}
+                        alt={tech.name}
+                        width={32}
+                        height={32}
+                        className="transition-transform group-hover:scale-110"
+                      />
+                    </div>
+                    <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
+                      {tech.name}
+                    </span>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>

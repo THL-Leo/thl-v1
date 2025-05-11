@@ -22,12 +22,12 @@ const stats = githubStats as GitHubStats
 
 // HSL values for Zinc color palette (without commas)
 const zincColors = [
-    'hsl(240 4% 16% / 0.9)', // zinc-800
-    'hsl(240 5% 26% / 0.9)', // zinc-700
-    'hsl(240 5% 34% / 0.9)', // zinc-600
-    'hsl(240 4% 46% / 0.9)', // zinc-500
     'hsl(240 5% 84% / 0.9)', // zinc-300
-    'hsl(240 5% 96% / 0.9)', // zinc-200
+    'hsl(240 5% 65% / 0.9)', // zinc-400
+    'hsl(240 4% 46% / 0.9)', // zinc-500
+    'hsl(240 5% 34% / 0.9)', // zinc-600
+    'hsl(240 5% 26% / 0.9)', // zinc-700
+    'hsl(240 4% 16% / 0.9)', // zinc-800
 ]
 
 export function RepoLanguageChart({ repoName }: { repoName: string }) {
@@ -45,7 +45,7 @@ export function RepoLanguageChart({ repoName }: { repoName: string }) {
       {
         data: Object.values(languages),
         backgroundColor: zincColors,
-        borderWidth: 1,
+        borderWidth: 0,
         borderColor: 'hsl(240 4% 16% / 0.1)', // zinc-800 with low opacity
       },
     ],
