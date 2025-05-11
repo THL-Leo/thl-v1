@@ -1,5 +1,7 @@
 'use client'
 
+import { ThemeToggle } from './ThemeToggle'
+
 export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
@@ -7,7 +9,7 @@ export function Navbar() {
         <a href="/" className="text-2xl font-bold">
           thleov1
         </a>
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="flex items-center gap-8">
           <a href="#projects" className="text-sm hover:text-primary transition-colors">
             Projects
           </a>
@@ -17,6 +19,7 @@ export function Navbar() {
           <a href="#contact" className="text-sm hover:text-primary transition-colors">
             Contact
           </a>
+          <ThemeToggle />
         </nav>
       </div>
     </header>

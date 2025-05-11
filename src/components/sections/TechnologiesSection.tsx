@@ -70,7 +70,7 @@ export function TechnologiesSection() {
                         alt={tech.name}
                         width={32}
                         height={32}
-                        className="transition-transform group-hover:scale-110"
+                        className="transition-transform group-hover:scale-110 dark:invert"
                       />
                     </div>
                     <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
