@@ -28,6 +28,19 @@
     },
     "topics": []
   },
+  "conclave": {
+    "name": "conclave",
+    "description": "conclave simulation",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-11T23:57:00Z",
+    "url": "https://github.com/THL-Leo/conclave",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
   "cURL": {
     "name": "cURL",
     "description": "",
@@ -287,13 +300,13 @@
     "description": "",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-05-11T00:44:35Z",
+    "lastUpdated": "2025-05-11T06:57:39Z",
     "url": "https://github.com/THL-Leo/thl-v1",
-    "homepage": null,
+    "homepage": "https://thl-v1.vercel.app",
     "languages": {
-      "TypeScript": 79.2,
-      "CSS": 20.4,
-      "JavaScript": 0.4
+      "TypeScript": 85.4,
+      "CSS": 14.3,
+      "JavaScript": 0.3
     },
     "topics": []
   },
