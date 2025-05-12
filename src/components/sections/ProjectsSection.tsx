@@ -27,7 +27,7 @@ const projects = [
         `Received 'Would Blow up on TikTok' award at jia.seed Hackathon 24.`,
         `This project is a personality test on what kind of brainrot content the user knows.`,
         `It utilizes OpenAI's GPT-4o mini model to analyze the user's response and roast them for the time they spend on social media.`,
-        `This project was built in 24 hours.`,
+        `This project was built in 48 hours.`,
     ],
     tags: ["React.js", "MUI", "OpenAI", "Vercel"],
     links: [
