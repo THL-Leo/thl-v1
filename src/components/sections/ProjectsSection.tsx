@@ -9,8 +9,8 @@ const projects = [
     description: [
         `Moodify is a platform that lets users relive their memories through music.`,
         `By uploading an image, users receive 10 songs that perfectly capture the emotion of their photo, creating a soundtrack for their memories.`,
+        `Authorization is handled through Spotify OAuth and the project is built with Reflex Web Framework in Python.`,
         `Built in 36 hours at LA Hacks 2024, this project aims to provide more meaningful music recommendations for personal stories than current offerings from platforms like Instagram.`,
-        `The project received positive feedback from hackathon judges.`
     ],
     tags: ["Reflex Web Framework", "Spotify API", "Gemini 1.0 Pro Vision", "OAuth"],
     links: [
@@ -29,7 +29,7 @@ const projects = [
         `It utilizes OpenAI's GPT-4o mini model to analyze the user's response and roast them for the time they spend on social media.`,
         `This project was built in 24 hours.`,
     ],
-    tags: ["React.js", "MUI", "OpenAI"],
+    tags: ["React.js", "MUI", "OpenAI", "Vercel"],
     links: [
       { label: "GitHub", url: "https://github.com/THL-Leo/brnrot.ai" },
       { label: "Live Demo", url: "https://brnrot-ai.vercel.app/" },
