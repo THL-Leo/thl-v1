@@ -20,11 +20,14 @@ export function HeroSection() {
             <a href="https://devpost.com/software/degen-purity-test" className="underline underline-offset-4 hover:text-foreground transition-colors">
               Modern Brainrot Personality Test
             </a>{' '}
-            from jia.seed Hackathon 24, and an {' '}
+            from jia.seed Hackathon 24, an {' '}
             <a href="https://devpost.com/software/idontknowhowtowriteemails" className="underline underline-offset-4 hover:text-foreground transition-colors">
               Email Writer
             </a>{' '}
-            from Anthropic x USC Hackathon 25.
+            from Anthropic x USC Hackathon 25, and {' '}
+            <a href="https://github.com/THL-Leo/conclave" className="underline underline-offset-4 hover:text-foreground transition-colors">
+              Conclave
+            </a>.
           </p>
         </div>
       </div>
