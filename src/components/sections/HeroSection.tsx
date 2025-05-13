@@ -30,6 +30,33 @@ export function HeroSection() {
             </a>.
           </p>
         </div>
+
+        <div className="flex gap-4 mt-4">
+          <a 
+            href="https://github.com/THL-Leo" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-base font-semibold hover:text-primary transition-colors"
+          >
+            Github
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/thl-leo/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-base font-semibold hover:text-primary transition-colors"
+          >
+            LinkedIn
+          </a>
+          <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=leolee.developer@gmail.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-base font-semibold hover:text-primary transition-colors"
+          >
+            Email
+          </a>
+        </div>
       </div>
     </section>
   )
