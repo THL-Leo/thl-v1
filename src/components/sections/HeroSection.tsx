@@ -13,19 +13,19 @@ export function HeroSection() {
         <div className="text-base space-y-1">
           <p>
             My recent work includes{' '}
-            <a href="https://devpost.com/software/moodify-tqhfsk" className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <a href="https://devpost.com/software/moodify-tqhfsk" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
               Image to Music platform
             </a>{' '}
             from LA Hacks 24, a{' '}
-            <a href="https://devpost.com/software/degen-purity-test" className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <a href="https://devpost.com/software/degen-purity-test" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
               Modern Brainrot Personality Test
             </a>{' '}
             from jia.seed Hackathon 24, an {' '}
-            <a href="https://devpost.com/software/idontknowhowtowriteemails" className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <a href="https://devpost.com/software/idontknowhowtowriteemails" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
               Email Writer
             </a>{' '}
             from Anthropic x USC Hackathon 25, and {' '}
-            <a href="https://github.com/THL-Leo/conclave" className="underline underline-offset-4 hover:text-foreground transition-colors">
+            <a href="https://github.com/THL-Leo/conclave" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
               Conclave
             </a>.
           </p>

@@ -6,8 +6,15 @@ export function ContactSection() {
       <div className="max-w-6xl mx-auto">
         <div className="max-w-xl mx-auto">
           <div className="text-center">
-            <p className="text-muted-foreground mb-4">Reach out here:</p>
-            <p className="font-xl">leolee.developer@gmail.com</p>
+            <p className="text-muted-foreground mb-2">Reach out here:</p>
+            <a 
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=leolee.developer@gmail.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-xl hover:text-primary transition-colors"
+            >
+              leolee.developer@gmail.com
+            </a>
             <a 
               href="https://www.linkedin.com/in/thl-leo/" 
               target="_blank" 
