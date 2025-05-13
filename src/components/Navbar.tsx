@@ -23,6 +23,22 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    // Only handle smooth scroll for hash links
+    if (href.startsWith('#')) {
+      e.preventDefault()
+      const element = document.querySelector(href)
+      if (element) {
+        const navbarHeight = 96 // h-16 = 64px
+        const elementPosition = element.getBoundingClientRect().top + window.scrollY
+        window.scrollTo({
+          top: elementPosition - navbarHeight,
+          behavior: 'smooth'
+        })
+      }
+    }
+  }
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-200 ${
       isScrolled ? 'bg-background/60 backdrop-blur-sm border-b' : 'bg-transparent'
@@ -38,6 +54,7 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
+              onClick={(e) => handleClick(e, link.href)}
               className="text-sm hover:text-primary transition-colors"
             >
               {link.label}
