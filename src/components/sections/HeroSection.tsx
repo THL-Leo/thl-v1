@@ -12,15 +12,15 @@ export function HeroSection() {
         </p>
         <div className="text-base space-y-4">
           <p>
-            My recent work includes{' '}
+            My recent work includes a{' '}
+            <a href="https://yesterday7.vercel.app/" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
+              news platform
+            </a>{' '}
+            that runs React components directly from PostgreSQL,{' '}
             <a href="https://devpost.com/software/moodify-tqhfsk" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
               Image to Music platform
             </a>{' '}
-            from LA Hacks 24, a{' '}
-            <a href="https://devpost.com/software/degen-purity-test" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
-              Modern Brainrot Personality Test
-            </a>{' '}
-            from jia.seed Hackathon 24.
+            from LA Hacks 24.
           </p>
           <p>
             I also built an{' '}
@@ -30,7 +30,7 @@ export function HeroSection() {
             from Anthropic x USC Hackathon 25, and{' '}
             <a href="https://github.com/THL-Leo/conclave" className="underline underline-offset-4 hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
               Conclave
-            </a>.
+            </a>: a papal election simulator.
           </p>
         </div>
 
