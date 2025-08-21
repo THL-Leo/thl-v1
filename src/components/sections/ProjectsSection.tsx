@@ -5,6 +5,27 @@ import { RepoLanguageChart } from '@/components/RepoLanguageChart'
 
 const projects = [
   {
+    "title": "News7",
+    "description": [
+      "A daily news outlet built with Next.js and TypeScript, powered directly by PostgreSQL.",
+      "Following the 'Postgres for everything' approach, News7 runs React components from within the database via plv8, and query with SQL queries.",
+      "Vercel Cron is used to pull data from the NewsAPI and store it in the database."
+    ],
+    "tags": [
+      "Next.js",
+      "PostgreSQL",
+    ],
+    "links": [
+      { "label": "Live", "url": "https://yesterday7.vercel.app/" },
+      { "label": "GitHub", "url": "https://github.com/THL-Leo/news7" },
+      { "label": "Inspired By", "url": "https://react-postgres-components.vercel.app/" }
+    ],
+    "github": {
+      "owner": "THL-Leo",
+      "repo": "news7"
+    }
+  },
+  {
     title: "Moodify",
     description: [
         `Moodify is a platform that lets users relive their memories through music.`,
@@ -82,7 +103,7 @@ export function ProjectsSection() {
     <section className="py-20 px-8 sm:px-12 md:px-16 lg:px-24" id="projects">
       <div className="max-w-6xl mx-auto">
         {projects.map((project, index) => (
-          <div key={project.title} className="mb-32 last:mb-0">
+          <div key={project.title} className="mb-32 last:mb-0 first:mt-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Left Column */}
               <div className="space-y-6">

@@ -14,6 +14,22 @@
     },
     "topics": []
   },
+  "capybaraPortfolio": {
+    "name": "capybaraPortfolio",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-08-11T22:02:39Z",
+    "url": "https://github.com/THL-Leo/capybaraPortfolio",
+    "homepage": "",
+    "languages": {
+      "JavaScript": 72.2,
+      "Python": 18.4,
+      "HTML": 6.1,
+      "CSS": 3.3
+    },
+    "topics": []
+  },
   "colly-crawler": {
     "name": "colly-crawler",
     "description": "",
@@ -35,6 +51,19 @@
     "forks": 0,
     "lastUpdated": "2025-05-11T23:57:00Z",
     "url": "https://github.com/THL-Leo/conclave",
+    "homepage": null,
+    "languages": {
+      "Python": 100.0
+    },
+    "topics": []
+  },
+  "credit_card_comparison_site": {
+    "name": "credit_card_comparison_site",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-27T00:33:37Z",
+    "url": "https://github.com/THL-Leo/credit_card_comparison_site",
     "homepage": null,
     "languages": {
       "Python": 100.0
@@ -64,6 +93,23 @@
     "homepage": null,
     "languages": {
       "Python": 100.0
+    },
+    "topics": []
+  },
+  "emailMCP": {
+    "name": "emailMCP",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-06-05T23:47:49Z",
+    "url": "https://github.com/THL-Leo/emailMCP",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 96.5,
+      "PLpgSQL": 1.7,
+      "CSS": 1.2,
+      "JavaScript": 0.4,
+      "Shell": 0.1
     },
     "topics": []
   },
@@ -151,6 +197,20 @@
     },
     "topics": []
   },
+  "jobWriter": {
+    "name": "jobWriter",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-28T00:31:55Z",
+    "url": "https://github.com/THL-Leo/jobWriter",
+    "homepage": null,
+    "languages": {
+      "JavaScript": 99.7,
+      "CSS": 0.3
+    },
+    "topics": []
+  },
   "llmail": {
     "name": "llmail",
     "description": "",
@@ -167,6 +227,20 @@
     },
     "topics": []
   },
+  "miniShopper": {
+    "name": "miniShopper",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-05-23T22:48:07Z",
+    "url": "https://github.com/THL-Leo/miniShopper",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 90.9,
+      "JavaScript": 9.1
+    },
+    "topics": []
+  },
   "Moodify": {
     "name": "Moodify",
     "description": "",
@@ -177,6 +251,37 @@
     "homepage": null,
     "languages": {
       "Python": 100.0
+    },
+    "topics": []
+  },
+  "networth": {
+    "name": "networth",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-07-01T07:23:11Z",
+    "url": "https://github.com/THL-Leo/networth",
+    "homepage": null,
+    "languages": {
+      "TypeScript": 97.6,
+      "PLpgSQL": 1.3,
+      "CSS": 0.8,
+      "JavaScript": 0.3
+    },
+    "topics": []
+  },
+  "news7": {
+    "name": "news7",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-08-21T09:43:33Z",
+    "url": "https://github.com/THL-Leo/news7",
+    "homepage": "https://yesterday7.vercel.app",
+    "languages": {
+      "TypeScript": 88.6,
+      "JavaScript": 9.8,
+      "CSS": 1.6
     },
     "topics": []
   },
@@ -191,6 +296,19 @@
     "languages": {
       "HTML": 81.2,
       "Python": 18.8
+    },
+    "topics": []
+  },
+  "old-capybaraPortfolio": {
+    "name": "old-capybaraPortfolio",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "lastUpdated": "2025-08-10T03:51:50Z",
+    "url": "https://github.com/THL-Leo/old-capybaraPortfolio",
+    "homepage": "https://capybara-portfolio.vercel.app",
+    "languages": {
+      "JavaScript": 100.0
     },
     "topics": []
   },
@@ -226,7 +344,7 @@
     "description": "",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-04-11T22:20:40Z",
+    "lastUpdated": "2025-06-09T03:07:28Z",
     "url": "https://github.com/THL-Leo/presidentTalksChess",
     "homepage": null,
     "languages": {
@@ -300,13 +418,13 @@
     "description": "",
     "stars": 0,
     "forks": 0,
-    "lastUpdated": "2025-05-11T06:57:39Z",
+    "lastUpdated": "2025-07-04T20:59:16Z",
     "url": "https://github.com/THL-Leo/thl-v1",
     "homepage": "https://thl-v1.vercel.app",
     "languages": {
-      "TypeScript": 85.4,
-      "CSS": 14.3,
-      "JavaScript": 0.3
+      "TypeScript": 87.2,
+      "CSS": 12.6,
+      "JavaScript": 0.2
     },
     "topics": []
   },
@@ -351,6 +469,19 @@
     "languages": {
       "C": 97.1,
       "Makefile": 2.9
+    },
+    "topics": []
+  },
+  "unzipper": {
+    "name": "unzipper",
+    "description": "MacOS app to unzip any files, working on expanding file types",
+    "stars": 0,
+    "forks": 1,
+    "lastUpdated": "2025-06-22T07:25:59Z",
+    "url": "https://github.com/THL-Leo/unzipper",
+    "homepage": null,
+    "languages": {
+      "Swift": 100.0
     },
     "topics": []
   }

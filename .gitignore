@@ -45,3 +45,6 @@ next-env.d.ts
 
 # python script
 /scripts
+
+# development reference files
+content/blogs/markdown-styling-reference.md

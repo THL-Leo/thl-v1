@@ -4,10 +4,10 @@ import { ThemeToggle } from './ThemeToggle'
 import { useEffect, useState } from 'react'
 
 const navLinks = [
-  { href: "#projects", label: "Projects" },
-  { href: "#technologies", label: "Technologies" },
-  { href: "#contact", label: "Contact" },
-  // { href: "/resume.pdf", label: "Resume" },
+  { href: "/projects", label: "Projects" },
+  { href: "/technologies", label: "Technologies" },
+  { href: "/blogs", label: "Blogs" },
+  { href: "/#contact", label: "Contact" },
 ]
 
 export function Navbar() {
