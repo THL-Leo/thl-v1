@@ -5,10 +5,10 @@ export function HeroSection() {
     <section className="min-h-screen flex flex-col items-center justify-center px-8 sm:px-12 md:px-16 lg:px-24 relative">
       <div className="max-w-6xl mx-auto w-full sm:w-auto">
         <h1 className="text-xl mb-4 font-bold">
-          Leo is a software engineer based in Los Angeles.
+          Leo is a software engineer based in Silicon Valley.
         </h1>
         <p className="text-lg font-semibold mb-4">
-          I make tools that help me with my daily life or anything I find interesting.
+        Currently @ Nuro. I make tools that help me with my daily life or anything I find interesting.
         </p>
         <div className="text-base space-y-4">
           <p>
