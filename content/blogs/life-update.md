@@ -1,13 +1,13 @@
 ---
 title: Life Update
-description: Maybe some people shouldn't just give up
+description: Rhino Beetles
 date: 2025-11-25
 ---
 
-NeetCode's latest video, `Maybe some people should just give up`, is really different from the usual content he does. When I watched it, I felt so compelled to write something because it is just so accurate. 
+I would love to get a Rhino beetle as a pet. I remember having these when I was young. I also remember playing some Japanese card games called Mushiking. They also have Dinosaur and other Animals iirc. It was really cool. 
 
-During my time in Bachelor's or Master's, I watched his videos on LeetCode because he gives really detailed solutions and thought processes. I often found myself just watching the video and trying to memorize the solution instead of actually understanding it. 
+I remember I collected like hundreds of these cards and hoped to get the White Hercules Beetle since it has the highest attack. In the end I never got it but I still remember collecting and comparing all of the beetles there are.
 
-This really hurt me when I took algorithms in my Master's because I didn't understand the intricate nature of the problems. Topics like *Divide and Conquer* and *Linear Programming* require mathematical knowledge to break down why and how they work. For someone who is really only interested in building software, it wasn't my strongest suit. 
+I also remember watching some Mushiking movie in the theatre with my family. It was honestly so bad but I really loved it. The giant beetles flying across the screen and smashing into each other. What a great time back then.
 
-Anyways, I think I will write another blog once I get the inspiration for it. Life has been great so far and I really appreciate my team and the people who I work with. I hope everyone a Happy Thanksgiving!
+![Mushiking](/mushiking.jpg)

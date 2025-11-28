@@ -79,6 +79,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 								},
 								pre: (props: any) => <div {...props} />,
 								blockquote: (props) => <blockquote className="border-l-2 pl-4 italic text-muted-foreground my-4" {...props} />,
+								img: (props) => (
+									<img 
+									  className="rounded-lg my-6 max-w-full h-auto" 
+									  {...props} 
+									  alt={props.alt || ''} 
+									/>
+								  ),
 							}}
 						>
 							{content}
